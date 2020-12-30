@@ -1,0 +1,10 @@
+filename myurl url
+  "http://www.utsc.utoronto.ca/~butler/c32/m.txt";
+proc import
+  datafile=myurl
+    dbms=dlm
+    out=mymatrix
+    replace;
+  delimiter=' ';
+  getnames=no;
+    
