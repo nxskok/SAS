@@ -3,4 +3,15 @@ title: "SAS code"
 ---
 
 
-code goes here
+Here are links to code for the various sections of the lecture notes. The code itself is plain text; you can copy and paste it into SAS Studio (or whatever flavour of SAS you are running).
+
+- [Reading data files](readfile.sas)
+- [Making graphs](graphs.sas)
+- [Numerical summaries](numsum.sas)
+- [Statistical inference](inference.sas): long; everything from one-sample t to ANOVA, including power
+- [Tidying data](tidying.sas)
+- [Case study of electricity usage and demand](case1.sas): simple regression with Box-Cox
+- [Categorical variables in regression](catreg.sas)
+- [Dates and times](datetime.sas)
+- [Miscellaneous tasks](miscellanea.sas): variations on reading files, permanent data sets, more plotting.
+- [Vector and matrix algebra](vecmat.sas)
