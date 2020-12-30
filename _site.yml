@@ -2,19 +2,19 @@ name: "Introduction to SAS"
 output_dir: "."
 navbar:
   title: "Introduction to SAS"
-left:
-  - text: "Home"
-href: index.html
-- text: "Lecture notes"
-href: "slides-sas.pdf"
-- text: "Lecture code"
-href: "code.html"
-- text: "PASI-SAS"
-href: "pasi-sas.pdf"
-- text: "Ken's other courses"
-href: http://ritsokiguess.site/home/courses.html
-- text: "Ken Butler home"
-href: http://ritsokiguess.site/home
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Lecture notes"
+      href: slides-sas.pdf
+    - text: "Lecture code"
+      href: code.html
+    - text: "PASI-SAS"
+      href: pasi-sas.pdf
+    - text: "Ken's other courses"
+      href: http://ritsokiguess.site/home/courses.html
+    - text: "Ken Butler home"
+      href: http://ritsokiguess.site/home
 output:
   html_document:
-  theme: flatly
+    theme: flatly
